@@ -19,4 +19,6 @@ Steps to get this going:
 - Put your thingspeak credentials into sensortag-thingspeak-cron.py
 - Put your Tag-UUID into btle.py
 - do a "sudo hcitool lescan" and press the button on the sensor tag. You should see the Sensor Tags UUID
+- set Sensor tag UUID in sensortag-thingspeak-cron.py
+- call weather-cron.sh via crontab
 - go to https://thingspeak.com and enjoy your data :-)
