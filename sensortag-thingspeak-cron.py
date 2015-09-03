@@ -11,12 +11,13 @@ import urllib
 # set credentials, TAG_ID and your height above sea level (in meter)
 
 THINGSPEAK_APIKEY="get API key from thingspeak.com and put it here"
+
+# Change to your TI Sensor Tag address (TAG-ID). Get this for your sensortag using "hcitool lescan"
 TAG_ID="34:B1:F7:D5:01:3B"
 
 HEIGHT=900 # we are 900m above sea level. Change this to your settings
 
-# 
-
+# no changes necessary below
 def _TI_UUID(val):
     return UUID("%08X-0451-4000-b000-000000000000" % (0xF0000000+val))
        
